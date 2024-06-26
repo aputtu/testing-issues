@@ -64,8 +64,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree contributing under the project's [Terms of Use](https://dk-www.migrid.org/public/terms.html). 
+      label: Terms and Conditions
+      description: By submitting this issue, you agree to contributing software released under the [GPL-2.0 license](https://github.com/ucphhpc/migrid-sync?tab=GPL-2.0-1-ov-file#readme) the project's [Terms of Use](https://dk-www.migrid.org/public/terms.html). 
       options:
-        - label: I accept contributing under the project's Terms of Use
+        - label: I accept to the project's Terms of Use and its License
           required: true
