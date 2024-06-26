@@ -40,16 +40,16 @@ body:
         - Multiple types
       default: 0
     validations:
-      required: true
+      required: false
   - type: dropdown
-    id: browsers
+    id: network_protocol
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Which network protocol were you using?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
+        - None selected
+        - SFTP
+        - WebDAV
         - Microsoft Edge
   - type: textarea
     id: logs
@@ -61,7 +61,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      description: By submitting this issue, you agree contributing under the project's [Terms of Use](https://dk-www.migrid.org/public/terms.html). 
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I accept contributing under the project's Terms of Use
           required: true
