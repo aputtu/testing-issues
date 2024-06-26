@@ -33,6 +33,7 @@ body:
       label: Operating system
       description: Which type of operating system is affected?
       options:
+        - None selected
         - Windows
         - MacOS
         - Linux
