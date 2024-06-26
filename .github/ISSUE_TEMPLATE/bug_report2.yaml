@@ -48,9 +48,13 @@ body:
       multiple: true
       options:
         - None selected
+        - HTTP(S)
         - SFTP
         - WebDAV
-        - Microsoft Edge
+        - RSYNC
+        - FTP(S)
+        - Multiple
+        - I don't know
   - type: textarea
     id: logs
     attributes:
