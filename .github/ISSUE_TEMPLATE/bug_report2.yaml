@@ -65,7 +65,7 @@ body:
     id: terms
     attributes:
       label: Terms and Conditions
-      description: By submitting this issue, you agree to contributing software released under the [GPL-2.0 license](https://github.com/ucphhpc/migrid-sync?tab=GPL-2.0-1-ov-file#readme) the project's [Terms of Use](https://dk-www.migrid.org/public/terms.html). 
+      description: By submitting this issue, you agree to contributing to software under the terms stated in the [GPL-2.0 license](https://github.com/ucphhpc/migrid-sync?tab=GPL-2.0-1-ov-file#readme) the project's [Terms of Use](https://dk-www.migrid.org/public/terms.html). 
       options:
         - label: I accept to the project's Terms of Use and its License
           required: true
