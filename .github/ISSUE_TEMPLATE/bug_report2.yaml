@@ -31,7 +31,7 @@ body:
     id: os
     attributes:
       label: Operating system
-      description: Which type of operating system is affected?
+      description: Which type of operating system is affected by the issue?
       options:
         - Windows
         - MacOS
