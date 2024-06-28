@@ -37,7 +37,6 @@ body:
         - MacOS
         - Linux
         - Multiple types
-      default: 0
     validations:
       required: false
   - type: dropdown
