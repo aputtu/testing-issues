@@ -44,6 +44,7 @@ body:
     id: network_protocol
     attributes:
       label: Which network protocol were you using?
+      description: If possible, please inform us on the communication protocol. 
       multiple: true
       options:
         - HTTP(S)
