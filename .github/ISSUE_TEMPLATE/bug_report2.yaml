@@ -33,7 +33,6 @@ body:
       label: Operating system
       description: Which type of operating system is affected?
       options:
-        - None selected
         - Windows
         - MacOS
         - Linux
@@ -47,7 +46,6 @@ body:
       label: Which network protocol were you using?
       multiple: true
       options:
-        - None selected
         - HTTP(S)
         - SFTP
         - WebDAV
