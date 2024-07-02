@@ -50,6 +50,12 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: textarea
+    id: linked-issue
+    attributes:
+      label: Related to existing issues?
+      description: Please inform us on existing support tickets or existing task.
+      placeholder: Tell us what you see! Please, add screenshots and instructions for how to reproduce, if possible.      
   - type: checkboxes
     id: terms
     attributes:
